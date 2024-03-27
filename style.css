@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    transition: .4s;
+}
+
+button {
+    cursor: pointer;
+    transition: .4s;
+    border: 1px solid #02897A;
+    background: #02897A;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+button:hover {
+    border: 1px solid #BCD0E5;
+    background: white;
+    color: black;
+}
+
+#header {
+    padding: 25px 0;
+    background: rgba(255, 255, 255, 60%);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(8px) ;
+    -webkit-box-shadow: 0 5px 8px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 5px 8px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.5);
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #22343D;
+    padding: 0 20px;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+.header-btn button {
+    padding: 12px 30px;
+    margin: 0 10px;
+}
+.header-dark {
+    border: none;
+    background: #dbe4ee;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 26px;
+    color: #02897A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero {
+    padding: 30px 0;
+    background: #fdfdfd;
+}
+
+.hero-title h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #22343D;
+}
+
+.hero-title p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #22343D;
+    width: 458px;
+    padding: 30px 0 46px 0;
+}
+
+.hero-title-btn button {
+    padding: 12px 30px;
+}
+
+.hero-title-btn a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #02897A;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-title-btn a ion-icon {
+    font-size: 26px;
+}
+
+.hero-title-btn a:hover {
+    text-decoration: underline;
+}
+
+.hero-title-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
